@@ -5,5 +5,6 @@ public class operators {
         // System.out.println(1 < 2);
         // System.out.println(2 >= 2);
         // System.out.println(5 == 5);
+        // || and && 
     }
 }
