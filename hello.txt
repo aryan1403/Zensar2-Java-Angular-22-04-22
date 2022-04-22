@@ -1,1 +1,9 @@
-Hello Aaryan
+Q1. WPA that will take name and age as a input and tell that whether the person is adult or not
+
+input :- Aaryan
+         18
+output :- Aaryan is an Adult
+
+input :- Arushi
+         16
+output :- Arushi is not an Adult
