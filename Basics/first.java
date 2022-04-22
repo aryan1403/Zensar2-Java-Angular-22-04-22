@@ -1,3 +1,4 @@
+package Basics;
 public class first {
     // Main method
     public static void main(String[] args) {
