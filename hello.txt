@@ -7,3 +7,5 @@ output :- Aaryan is an Adult
 input :- Arushi
          16
 output :- Arushi is not an Adult
+
+Q2. WPA to take a int as an input and print the table of it.
