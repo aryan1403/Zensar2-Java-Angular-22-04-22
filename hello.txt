@@ -9,3 +9,10 @@ input :- Arushi
 output :- Arushi is not an Adult
 
 Q2. WPA to take a int as an input and print the table of it.
+
+Q3. WPA to take weight as an input 
+
+cases :- 
+ weight > 90 fat
+        < 30 thin
+        45 - 60 healthy
