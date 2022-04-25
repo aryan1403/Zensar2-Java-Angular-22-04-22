@@ -48,9 +48,9 @@ class meow {
         Ball b = new Ball("Leather", "Red", 100);
         Ball b1 = new Ball("Jumper", "Yellow", 20);
 
-        System.out.println(b.getMaterial());
-        System.out.println(b.getColor());
-        System.out.println(b.getPrice());
+        b.setMaterial("Metal");
+
+        System.out.println(b);
         System.out.println(b1);
     }
 }
