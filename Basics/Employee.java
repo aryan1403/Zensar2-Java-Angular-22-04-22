@@ -83,8 +83,7 @@ class EmployeeSystem {
         String m = dob.split("/")[1];
         String y = dob.split("/")[2];
 
-        
-        System.out.println(LocalDate.of(Integer.parseInt(y), Integer.parseInt(m), (int) Integer.parseInt(d)));
+        System.out.println(LocalDate.of(Integer.parseInt(y), Integer.parseInt(m), Integer.parseInt(d)));
         System.out.println("Enter the Employee Experience : ");
         double exp = sc.nextDouble();
 
