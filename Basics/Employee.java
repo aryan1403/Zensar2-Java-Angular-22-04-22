@@ -1,5 +1,7 @@
 package Basics;
 
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Employee {
@@ -74,8 +76,15 @@ class EmployeeSystem {
         String Erole = sc.nextLine();
         System.out.println("Enter the Employee Salary : ");
         double Esalary = sc.nextDouble();
-        System.out.println("Enter the Employee DOB : ");
-        String dob = sc.nextLine();
+        System.out.println("Enter the Employee DOB (dd/mm/yy) : ");
+        Scanner docsc = new Scanner(System.in);
+        String dob = docsc.nextLine();
+        String d = dob.split("/")[0];
+        String m = dob.split("/")[1];
+        String y = dob.split("/")[2];
+
+        
+        System.out.println(LocalDate.of(Integer.parseInt(y), Integer.parseInt(m), (int) Integer.parseInt(d)));
         System.out.println("Enter the Employee Experience : ");
         double exp = sc.nextDouble();
 
