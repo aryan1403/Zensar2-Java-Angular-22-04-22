@@ -16,3 +16,15 @@ cases :-
  weight > 90 fat
         < 30 thin
         45 - 60 healthy
+
+Q4. Create an Array of length 10 and multiply each element
+
+Q5. Create an Array to store marks of 10 students and do the following
+print the greatest marks,
+lowest marks,
+average of marks
+
+Q6. Create a Car class with fields and getter setters and a constructor 
+and create objects of it.
+
+Q7. Create a program to show Current Date, Time
