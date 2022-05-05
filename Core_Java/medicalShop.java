@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.Scanner;
 import java.util.UUID;
-
+/*
 public class medicalShop {
     static Queue<Details> q = new ArrayDeque<>();
     public static Details inputDetails() {
@@ -89,3 +89,4 @@ class Details {
 
     
 }
+*/
