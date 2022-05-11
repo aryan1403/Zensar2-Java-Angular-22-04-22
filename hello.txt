@@ -1,30 +1,13 @@
-Q1. WPA that will take name and age as a input and tell that whether the person is adult or not
+Q1. WPA to display current date and time
+Q2. Write an sql query to insert name, age and gender into test table
+Q3. WPA to Sort the characters of a string.
+Procedure :- Convert each char element into int and then sort them.
+Q4. WPA to input a string reverse it and then remove all the even occurring characters
+Q5. Create a functional interface named Maths define one function add(a, b) with two parameteres a and b. Create one class called M and create object of Maths interface using lambda expression.
+Q6. WPA to take user input as int and find the factorial of that number.
+Factorial formula :
+N! = n*n-1*-2...1;
 
-input :- Aaryan
-         18
-output :- Aaryan is an Adult
-
-input :- Arushi
-         16
-output :- Arushi is not an Adult
-
-Q2. WPA to take a int as an input and print the table of it.
-
-Q3. WPA to take weight as an input 
-
-cases :- 
- weight > 90 fat
-        < 30 thin
-        45 - 60 healthy
-
-Q4. Create an Array of length 10 and multiply each element
-
-Q5. Create an Array to store marks of 10 students and do the following
-print the greatest marks,
-lowest marks,
-average of marks
-
-Q6. Create a Car class with fields and getter setters and a constructor 
-and create objects of it.
-
-Q7. Create a program to show Current Date, Time
+Ex: - 5
+5! = 5 * 4 * 3 * 2 * 1;
+Q7. WPA to find prime numbers between 1-50
