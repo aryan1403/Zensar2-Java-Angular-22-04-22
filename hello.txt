@@ -1,13 +1,9 @@
-Q1. WPA to display current date and time
-Q2. Write an sql query to insert name, age and gender into test table
-Q3. WPA to Sort the characters of a string.
+Q1. WPA to display total leap years in next 50 years (starting from 2022).
+Q2. Write an sql query to update name, age and gender into test table
+Q3. WPA to Sort the characters of a string in descending format.
 Procedure :- Convert each char element into int and then sort them.
-Q4. WPA to input a string reverse it and then remove all the even occurring characters
-Q5. Create a functional interface named Maths define one function add(a, b) with two parameteres a and b. Create one class called M and create object of Maths interface using lambda expression.
-Q6. WPA to take user input as int and find the factorial of that number.
-Factorial formula :
-N! = n*n-1*-2...1;
-
-Ex: - 5
-5! = 5 * 4 * 3 * 2 * 1;
-Q7. WPA to find prime numbers between 1-50
+Q4. WPA to input a string reverse the half of it and then remove all the even occurring characters
+Q5. WPA to take user input as int and find the nearest prime number present from that number.
+Sample Input :- 10
+Sample Output :- 11
+Q6. WPA to find prime numbers between 1-50
