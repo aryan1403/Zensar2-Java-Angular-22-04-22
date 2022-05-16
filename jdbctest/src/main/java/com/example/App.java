@@ -12,15 +12,17 @@ public final class App {
             Class.forName("com.mysql.cj.jdbc.Driver"); // Register the Driver
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "");
 
-            String query = "SELECT * from test1";
+            String name = "Veer";
+            String query = "insert into test1 values('"+ name+ "', 13, 1234);";
             PreparedStatement ps = con.prepareStatement(query);
 
-            ResultSet rs = ps.executeQuery();
+            ps.execute();
+            // ResultSet rs = ps.executeQuery();
 
-            System.out.println("Names :-");
-            while(rs.next()) {
+            // System.out.println("Names :-");
+            /* while(rs.next()) {
                 System.out.println(rs.getString("name"));
-            }
+            } */
 
             con.close();
         } catch(SQLException | ClassNotFoundException se) {
